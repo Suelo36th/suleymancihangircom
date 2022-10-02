@@ -1,5 +1,7 @@
+@import 'fonts.css';
+
 body {
-  font-family: Muli, sans-serif;
+  font-family: Mulish, sans-serif;
   color: #000;
   font-size: 14px;
   line-height: 180%;
@@ -333,8 +335,9 @@ a {
   grid-auto-columns: 1fr;
   grid-column-gap: 60px;
   grid-row-gap: 14px;
-  grid-template-areas: ". Area"
-    ". Area";
+  grid-template-areas:
+    '. Area'
+    '. Area';
   -ms-grid-columns: 1fr 60px 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto 14px auto;
@@ -367,7 +370,7 @@ a {
   margin-bottom: 16px;
   padding: 6px 10px;
   background-color: #ffe872;
-  font-family: Muli, sans-serif;
+  font-family: Mulish, sans-serif;
   font-size: 0.8rem;
   line-height: 16px;
   font-weight: 700;
@@ -416,7 +419,7 @@ a {
 }
 
 .heading-5 {
-  font-family: Muli, sans-serif;
+  font-family: Mulish, sans-serif;
   color: #b7b4b9;
   font-size: 1.2rem;
   font-weight: 700;
@@ -604,7 +607,7 @@ a {
 }
 
 .heading-7 {
-  font-family: Muli, sans-serif;
+  font-family: Mulish, sans-serif;
   color: #1b1b1b;
   font-size: 2rem;
   line-height: 130%;
@@ -710,7 +713,7 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    grid-template-areas: ".";
+    grid-template-areas: '.';
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto;
@@ -1238,4 +1241,3 @@ a {
     grid-row-end: 4;
   }
 }
-

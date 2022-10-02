@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Mulish';
+  src: url('/assets/fonts/Mulish/Mulish-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Mulish/Mulish-VariableFont_wght.ttf')
+    format('truetype');
+}
